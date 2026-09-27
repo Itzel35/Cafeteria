@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Café Aroma</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+
+                    <!-- Hace que página navegue desde el menú -->
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promociones">Promociones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio con portada-->
+    <header id="inicio" class="hero-image">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h1 class="display-4 font-weight-bold">Café Aroma</h1>
+                        <p class="lead my-4">Disfruta del mejor café artesanal de la ciudad, preparado con granos seleccionados y un aroma que enamora.</p>
+                        <a href="#menu" class="btn btn-primary btn-lg">Ver nuestro menú</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu -->
+    <section id="menu" class="py-5 bg-light">
+        <div class="container mt-4">
+            <h2 class="text-center mb-5">Nuestro Menú</h2>
+            
+            <!--Para que en compu se vea 3 columnas, tablet 2, celular 1 -->
+            <div class="row">
+                
+                <!-- Producto 1 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/CafeAmericano.avif" class="card-img-top" alt="Café Americano">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Café Americano</h5>
+                            <p class="card-text">Un clásico intenso y aromático, preparado con granos de la mejor calidad.</p>
+                            <p class="font-weight-bold text-primary">$50.00</p>
+                            <a href="#" class="btn btn-primary">Ordenar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Cappuccino.avif" class="card-img-top" alt="Cappuccino">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Espresso con leche vaporizada y una capa de espuma cremosa.</p>
+                            <p class="font-weight-bold text-primary">$60.00</p>
+                            <a href="#" class="btn btn-primary">Ordenar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                 
+             <div class="col-12 col-md-6 col-lg-4 mb-4">
+               <div class="card h-100 shadow-sm">
+                <img src="img/Latte.avif" class="card-img-top" alt="Latte">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Latte</h5>
+                      <p class="card-text">Suave y sedoso, perfecto para aquellos que prefieren un sabor más ligero.</p>
+                      <p class="font-weight-bold text-primary">$70.00</p>
+                      <a href="#" class="btn btn-primary">Ordenar</a>
+                 </div>
+               </div>
+             </div>   
+
+                <!-- Producto 4 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Croissant.avif" class="card-img-top" alt="Croissant">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Croissant</h5>
+                            <p class="card-text">Recién horneado, crujiente por fuera y suave por dentro.</p>
+                            <p class="font-weight-bold text-primary">$40.00</p>
+                            <a href="#" class="btn btn-primary">Ordenar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/PastelChocolate.avif" class="card-img-top" alt="Pastel de chocolate">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pastel de Chocolate</h5>
+                            <p class="card-text">Deliciosa porción de pastel húmedo con intenso sabor a cacao.</p>
+                            <p class="font-weight-bold text-primary">$80.00</p>
+                            <a href="#" class="btn btn-primary">Ordenar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/Galletas.avif" class="card-img-top" alt="Galletas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Galletas</h5>
+                            <p class="card-text">Galletas artesanales con chispas de chocolate, ideales para acompañar tu café.</p>
+                            <p class="font-weight-bold text-primary">$60.00</p>
+                            <a href="#" class="btn btn-primary">Ordenar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Promociones -->
+    <section id="promociones" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Promociones</h2>
+            <div class="row">
+                
+                <!-- Promoción 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="alert alert-primary text-center h-100" role="alert">
+                        <h4 class="alert-heading">Promoción 1</h4>
+                        <p>2x1 en Cafés Americanos todos los martes.</p>
+                        <span class="badge badge-dark">Solo martes</span>
+                    </div>
+                </div>
+
+                <!-- Promoción 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="alert alert-success text-center h-100" role="alert">
+                        <h4 class="alert-heading">Promoción 2</h4>
+                        <p>Combo: Café + Croissant por solo $80.00.</p>
+                        <span class="badge badge-dark">Todos los días</span>
+                    </div>
+                </div>
+
+                <!-- Promoción 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="alert alert-warning text-center h-100" role="alert">
+                        <h4 class="alert-heading">Promoción 3</h4>
+                        <p>10% de descuento presentando tu credencial de estudiante.</p>
+                        <span class="badge badge-dark">Estudiantes</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" placeholder="123 456 7890">
+                        </div>
+                        <div class="form-group">
+                            <label for="motivo">Motivo de contacto</label>
+                            <select class="form-control" id="motivo">
+                                <option>Consulta general</option>
+                                <option>Reservación</option>
+                                <option>Sugerencia</option>
+                                <option>Queja</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Pie de pagina -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Café Aroma</h5>
+                    <p>El mejor café de la ciudad.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contacto</h5>
+                    <p>📍 Av. Principal 123, Ciudad</p>
+                    <p>📞 +52 123 456 7890</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Redes Sociales</h5>
+                    <a href="#" class="text-white mr-3">Facebook</a>
+                    <a href="#" class="text-white mr-3">Instagram</a>
+                    <a href="#" class="text-white">Twitter</a>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <p class="mb-0">&copy; 2023 Café Aroma. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
